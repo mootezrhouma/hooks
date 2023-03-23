@@ -1,0 +1,56 @@
+
+*{
+  background-color:red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.App {
+  text-align: center;
+ 
+
+}
+
+
+
+.App-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(3, 2, 2);
+}
+
+
+
+
+
+.cardmov{
+
+  margin: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  gap: 65px;
+  justify-content: center;
+}
+
+.text{
+  font-size: medium;
+}
+.title{
+  text-transform: capitalize;
+  text-decoration: solid;
+}
+
+.buttonsecond{
+margin-left: 500px;
+color: red;
+}
+.search{
+  margin-left: 100px;
+}
+.search>h1{
+  color: white;
+  letter-spacing: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.clik{
+  color: white;
+}
